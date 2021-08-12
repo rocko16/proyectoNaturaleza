@@ -298,13 +298,14 @@ nav ul li a:hover {
   }
 
   .nav-wrapper {
+
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: #fff;
+    background: #f2f2f2;
     opacity: 0;
     transition: all 0.2s ease;
   }
@@ -322,6 +323,7 @@ nav ul li a:hover {
     width: 100%;
     text-align: right;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .nav-wrapper ul li:nth-child(1) a {
